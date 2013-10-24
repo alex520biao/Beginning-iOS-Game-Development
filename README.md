@@ -12,3 +12,6 @@ http://www.wrox.com/WileyCDA/WroxTitle/Beginning-iOS-Game-Development.productCd-
 
 试读样张:
 http://www.tup.tsinghua.edu.cn/Resource/tsyz/047224-01.pdf
+
+全文:
+http://book.2cto.com/201304/21356.html
