@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4370C7E7143E136100B37A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370C7E6143E136100B37A0E /* Foundation.framework */; };
+		4370C7EA143E136100B37A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C7E9143E136100B37A0E /* main.m */; };
+		4370C7EE143E136100B37A0E /* Houses.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4370C7ED143E136100B37A0E /* Houses.1 */; };
+		4370C7F6143E147000B37A0E /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C7F5143E147000B37A0E /* House.m */; };
+		4370C7F9143E165300B37A0E /* Colonial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C7F8143E165300B37A0E /* Colonial.m */; };
+		4370C7FC143E169C00B37A0E /* Mansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C7FB143E169C00B37A0E /* Mansion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4370C7E0143E136100B37A0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4370C7EE143E136100B37A0E /* Houses.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4370C7E2143E136100B37A0E /* Houses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Houses; sourceTree = BUILT_PRODUCTS_DIR; };
+		4370C7E6143E136100B37A0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4370C7E9143E136100B37A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4370C7EC143E136100B37A0E /* Houses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Houses-Prefix.pch"; sourceTree = "<group>"; };
+		4370C7ED143E136100B37A0E /* Houses.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Houses.1; sourceTree = "<group>"; };
+		4370C7F4143E147000B37A0E /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = House.h; path = ../House.h; sourceTree = "<group>"; };
+		4370C7F5143E147000B37A0E /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = House.m; path = ../House.m; sourceTree = "<group>"; };
+		4370C7F7143E165300B37A0E /* Colonial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colonial.h; sourceTree = "<group>"; };
+		4370C7F8143E165300B37A0E /* Colonial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colonial.m; sourceTree = "<group>"; };
+		4370C7FA143E169C00B37A0E /* Mansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mansion.h; sourceTree = "<group>"; };
+		4370C7FB143E169C00B37A0E /* Mansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mansion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4370C7DF143E136100B37A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4370C7E7143E136100B37A0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4370C7D7143E136100B37A0E = {
+			isa = PBXGroup;
+			children = (
+				4370C7E8143E136100B37A0E /* Houses */,
+				4370C7E5143E136100B37A0E /* Frameworks */,
+				4370C7E3143E136100B37A0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4370C7E3143E136100B37A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4370C7E2143E136100B37A0E /* Houses */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4370C7E5143E136100B37A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4370C7E6143E136100B37A0E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4370C7E8143E136100B37A0E /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				4370C7F4143E147000B37A0E /* House.h */,
+				4370C7F5143E147000B37A0E /* House.m */,
+				4370C7E9143E136100B37A0E /* main.m */,
+				4370C7ED143E136100B37A0E /* Houses.1 */,
+				4370C7EB143E136100B37A0E /* Supporting Files */,
+				4370C7F7143E165300B37A0E /* Colonial.h */,
+				4370C7F8143E165300B37A0E /* Colonial.m */,
+				4370C7FA143E169C00B37A0E /* Mansion.h */,
+				4370C7FB143E169C00B37A0E /* Mansion.m */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+		4370C7EB143E136100B37A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4370C7EC143E136100B37A0E /* Houses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4370C7E1143E136100B37A0E /* Houses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4370C7F1143E136100B37A0E /* Build configuration list for PBXNativeTarget "Houses" */;
+			buildPhases = (
+				4370C7DE143E136100B37A0E /* Sources */,
+				4370C7DF143E136100B37A0E /* Frameworks */,
+				4370C7E0143E136100B37A0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Houses;
+			productName = Houses;
+			productReference = 4370C7E2143E136100B37A0E /* Houses */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4370C7D9143E136100B37A0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4370C7DC143E136100B37A0E /* Build configuration list for PBXProject "Houses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4370C7D7143E136100B37A0E;
+			productRefGroup = 4370C7E3143E136100B37A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4370C7E1143E136100B37A0E /* Houses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4370C7DE143E136100B37A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4370C7EA143E136100B37A0E /* main.m in Sources */,
+				4370C7F6143E147000B37A0E /* House.m in Sources */,
+				4370C7F9143E165300B37A0E /* Colonial.m in Sources */,
+				4370C7FC143E169C00B37A0E /* Mansion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4370C7EF143E136100B37A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4370C7F0143E136100B37A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4370C7F2143E136100B37A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Houses/Houses-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4370C7F3143E136100B37A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Houses/Houses-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4370C7DC143E136100B37A0E /* Build configuration list for PBXProject "Houses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4370C7EF143E136100B37A0E /* Debug */,
+				4370C7F0143E136100B37A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4370C7F1143E136100B37A0E /* Build configuration list for PBXNativeTarget "Houses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4370C7F2143E136100B37A0E /* Debug */,
+				4370C7F3143E136100B37A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4370C7D9143E136100B37A0E /* Project object */;
+}

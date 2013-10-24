@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436B3034141E8969008CB269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436B3033141E8969008CB269 /* UIKit.framework */; };
+		436B3036141E8969008CB269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436B3035141E8969008CB269 /* Foundation.framework */; };
+		436B3038141E8969008CB269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436B3037141E8969008CB269 /* CoreGraphics.framework */; };
+		436B303E141E8969008CB269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 436B303C141E8969008CB269 /* InfoPlist.strings */; };
+		436B3040141E8969008CB269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B303F141E8969008CB269 /* main.m */; };
+		436B3044141E8969008CB269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B3043141E8969008CB269 /* AppDelegate.m */; };
+		436B3047141E8969008CB269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B3046141E8969008CB269 /* ViewController.m */; };
+		436B304A141E8969008CB269 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436B3048141E8969008CB269 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		436B302F141E8969008CB269 /* MultiToucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiToucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B3033141E8969008CB269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		436B3035141E8969008CB269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		436B3037141E8969008CB269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		436B303B141E8969008CB269 /* MultiToucher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiToucher-Info.plist"; sourceTree = "<group>"; };
+		436B303D141E8969008CB269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		436B303F141E8969008CB269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		436B3041141E8969008CB269 /* MultiToucher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiToucher-Prefix.pch"; sourceTree = "<group>"; };
+		436B3042141E8969008CB269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		436B3043141E8969008CB269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436B3045141E8969008CB269 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		436B3046141E8969008CB269 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		436B3049141E8969008CB269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436B302C141E8969008CB269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B3034141E8969008CB269 /* UIKit.framework in Frameworks */,
+				436B3036141E8969008CB269 /* Foundation.framework in Frameworks */,
+				436B3038141E8969008CB269 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436B3024141E8968008CB269 = {
+			isa = PBXGroup;
+			children = (
+				436B3039141E8969008CB269 /* MultiToucher */,
+				436B3032141E8969008CB269 /* Frameworks */,
+				436B3030141E8969008CB269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436B3030141E8969008CB269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436B302F141E8969008CB269 /* MultiToucher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436B3032141E8969008CB269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				436B3033141E8969008CB269 /* UIKit.framework */,
+				436B3035141E8969008CB269 /* Foundation.framework */,
+				436B3037141E8969008CB269 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		436B3039141E8969008CB269 /* MultiToucher */ = {
+			isa = PBXGroup;
+			children = (
+				436B3042141E8969008CB269 /* AppDelegate.h */,
+				436B3043141E8969008CB269 /* AppDelegate.m */,
+				436B3045141E8969008CB269 /* ViewController.h */,
+				436B3046141E8969008CB269 /* ViewController.m */,
+				436B3048141E8969008CB269 /* ViewController.xib */,
+				436B303A141E8969008CB269 /* Supporting Files */,
+			);
+			path = MultiToucher;
+			sourceTree = "<group>";
+		};
+		436B303A141E8969008CB269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436B303B141E8969008CB269 /* MultiToucher-Info.plist */,
+				436B303C141E8969008CB269 /* InfoPlist.strings */,
+				436B303F141E8969008CB269 /* main.m */,
+				436B3041141E8969008CB269 /* MultiToucher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436B302E141E8969008CB269 /* MultiToucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B304D141E8969008CB269 /* Build configuration list for PBXNativeTarget "MultiToucher" */;
+			buildPhases = (
+				436B302B141E8969008CB269 /* Sources */,
+				436B302C141E8969008CB269 /* Frameworks */,
+				436B302D141E8969008CB269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiToucher;
+			productName = MultiToucher;
+			productReference = 436B302F141E8969008CB269 /* MultiToucher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436B3026141E8968008CB269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 436B3029141E8968008CB269 /* Build configuration list for PBXProject "MultiToucher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 436B3024141E8968008CB269;
+			productRefGroup = 436B3030141E8969008CB269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436B302E141E8969008CB269 /* MultiToucher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436B302D141E8969008CB269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B303E141E8969008CB269 /* InfoPlist.strings in Resources */,
+				436B304A141E8969008CB269 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436B302B141E8969008CB269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B3040141E8969008CB269 /* main.m in Sources */,
+				436B3044141E8969008CB269 /* AppDelegate.m in Sources */,
+				436B3047141E8969008CB269 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		436B303C141E8969008CB269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B303D141E8969008CB269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		436B3048141E8969008CB269 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B3049141E8969008CB269 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436B304B141E8969008CB269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		436B304C141E8969008CB269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436B304E141E8969008CB269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiToucher/MultiToucher-Prefix.pch";
+				INFOPLIST_FILE = "MultiToucher/MultiToucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		436B304F141E8969008CB269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiToucher/MultiToucher-Prefix.pch";
+				INFOPLIST_FILE = "MultiToucher/MultiToucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436B3029141E8968008CB269 /* Build configuration list for PBXProject "MultiToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B304B141E8969008CB269 /* Debug */,
+				436B304C141E8969008CB269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B304D141E8969008CB269 /* Build configuration list for PBXNativeTarget "MultiToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B304E141E8969008CB269 /* Debug */,
+				436B304F141E8969008CB269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 436B3026141E8968008CB269 /* Project object */;
+}

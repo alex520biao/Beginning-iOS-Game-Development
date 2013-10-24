@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4388DCDC1420EA7100B428ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388DCDB1420EA7100B428ED /* UIKit.framework */; };
+		4388DCDE1420EA7100B428ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388DCDD1420EA7100B428ED /* Foundation.framework */; };
+		4388DCE01420EA7100B428ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388DCDF1420EA7100B428ED /* CoreGraphics.framework */; };
+		4388DCE61420EA7100B428ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCE41420EA7100B428ED /* InfoPlist.strings */; };
+		4388DCE81420EA7100B428ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388DCE71420EA7100B428ED /* main.m */; };
+		4388DCEC1420EA7100B428ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388DCEB1420EA7100B428ED /* AppDelegate.m */; };
+		4388DCEF1420EA7100B428ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388DCEE1420EA7100B428ED /* ViewController.m */; };
+		4388DCF21420EA7100B428ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCF01420EA7100B428ED /* ViewController.xib */; };
+		4388DD0A1420EA9B00B428ED /* Card Front_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCF91420EA9B00B428ED /* Card Front_1.png */; };
+		4388DD0B1420EA9B00B428ED /* Card Front_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFA1420EA9B00B428ED /* Card Front_2.png */; };
+		4388DD0C1420EA9B00B428ED /* Card Front_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFB1420EA9B00B428ED /* Card Front_3.png */; };
+		4388DD0D1420EA9B00B428ED /* Card Front_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFC1420EA9B00B428ED /* Card Front_4.png */; };
+		4388DD0E1420EA9B00B428ED /* Card Front_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFD1420EA9B00B428ED /* Card Front_5.png */; };
+		4388DD0F1420EA9B00B428ED /* Card Front_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFE1420EA9B00B428ED /* Card Front_6.png */; };
+		4388DD101420EA9B00B428ED /* Card Front_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DCFF1420EA9B00B428ED /* Card Front_7.png */; };
+		4388DD111420EA9B00B428ED /* Card Front_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD001420EA9B00B428ED /* Card Front_8.png */; };
+		4388DD121420EA9B00B428ED /* Card Front_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD011420EA9B00B428ED /* Card Front_9.png */; };
+		4388DD131420EA9B00B428ED /* Card Front_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD021420EA9B00B428ED /* Card Front_10.png */; };
+		4388DD141420EA9B00B428ED /* Card Front_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD031420EA9B00B428ED /* Card Front_11.png */; };
+		4388DD151420EA9B00B428ED /* Card Front_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD041420EA9B00B428ED /* Card Front_12.png */; };
+		4388DD161420EA9B00B428ED /* Card Front_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD051420EA9B00B428ED /* Card Front_13.png */; };
+		4388DD171420EA9B00B428ED /* Card Front_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD061420EA9B00B428ED /* Card Front_14.png */; };
+		4388DD181420EA9B00B428ED /* Card Front_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD071420EA9B00B428ED /* Card Front_15.png */; };
+		4388DD191420EA9B00B428ED /* Card Front_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD081420EA9B00B428ED /* Card Front_16.png */; };
+		4388DD1A1420EA9B00B428ED /* Card_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4388DD091420EA9B00B428ED /* Card_Back.png */; };
+		4388DD1D1420EAFB00B428ED /* CardImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4388DD1C1420EAFB00B428ED /* CardImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4388DCD71420EA7100B428ED /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4388DCDB1420EA7100B428ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4388DCDD1420EA7100B428ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4388DCDF1420EA7100B428ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4388DCE31420EA7100B428ED /* Concentration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Concentration-Info.plist"; sourceTree = "<group>"; };
+		4388DCE51420EA7100B428ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4388DCE71420EA7100B428ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4388DCE91420EA7100B428ED /* Concentration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Concentration-Prefix.pch"; sourceTree = "<group>"; };
+		4388DCEA1420EA7100B428ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4388DCEB1420EA7100B428ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4388DCED1420EA7100B428ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4388DCEE1420EA7100B428ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4388DCF11420EA7100B428ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4388DCF91420EA9B00B428ED /* Card Front_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_1.png"; sourceTree = "<group>"; };
+		4388DCFA1420EA9B00B428ED /* Card Front_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_2.png"; sourceTree = "<group>"; };
+		4388DCFB1420EA9B00B428ED /* Card Front_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_3.png"; sourceTree = "<group>"; };
+		4388DCFC1420EA9B00B428ED /* Card Front_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_4.png"; sourceTree = "<group>"; };
+		4388DCFD1420EA9B00B428ED /* Card Front_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_5.png"; sourceTree = "<group>"; };
+		4388DCFE1420EA9B00B428ED /* Card Front_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_6.png"; sourceTree = "<group>"; };
+		4388DCFF1420EA9B00B428ED /* Card Front_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_7.png"; sourceTree = "<group>"; };
+		4388DD001420EA9B00B428ED /* Card Front_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_8.png"; sourceTree = "<group>"; };
+		4388DD011420EA9B00B428ED /* Card Front_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_9.png"; sourceTree = "<group>"; };
+		4388DD021420EA9B00B428ED /* Card Front_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_10.png"; sourceTree = "<group>"; };
+		4388DD031420EA9B00B428ED /* Card Front_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_11.png"; sourceTree = "<group>"; };
+		4388DD041420EA9B00B428ED /* Card Front_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_12.png"; sourceTree = "<group>"; };
+		4388DD051420EA9B00B428ED /* Card Front_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_13.png"; sourceTree = "<group>"; };
+		4388DD061420EA9B00B428ED /* Card Front_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_14.png"; sourceTree = "<group>"; };
+		4388DD071420EA9B00B428ED /* Card Front_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_15.png"; sourceTree = "<group>"; };
+		4388DD081420EA9B00B428ED /* Card Front_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Front_16.png"; sourceTree = "<group>"; };
+		4388DD091420EA9B00B428ED /* Card_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Card_Back.png; sourceTree = "<group>"; };
+		4388DD1B1420EAFB00B428ED /* CardImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardImageView.h; sourceTree = "<group>"; };
+		4388DD1C1420EAFB00B428ED /* CardImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4388DCD41420EA7100B428ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4388DCDC1420EA7100B428ED /* UIKit.framework in Frameworks */,
+				4388DCDE1420EA7100B428ED /* Foundation.framework in Frameworks */,
+				4388DCE01420EA7100B428ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4388DCCC1420EA7100B428ED = {
+			isa = PBXGroup;
+			children = (
+				4388DCF81420EA8000B428ED /* Images */,
+				4388DCE11420EA7100B428ED /* Concentration */,
+				4388DCDA1420EA7100B428ED /* Frameworks */,
+				4388DCD81420EA7100B428ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4388DCD81420EA7100B428ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4388DCD71420EA7100B428ED /* Concentration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4388DCDA1420EA7100B428ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4388DCDB1420EA7100B428ED /* UIKit.framework */,
+				4388DCDD1420EA7100B428ED /* Foundation.framework */,
+				4388DCDF1420EA7100B428ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4388DCE11420EA7100B428ED /* Concentration */ = {
+			isa = PBXGroup;
+			children = (
+				4388DCEA1420EA7100B428ED /* AppDelegate.h */,
+				4388DCEB1420EA7100B428ED /* AppDelegate.m */,
+				4388DCED1420EA7100B428ED /* ViewController.h */,
+				4388DCEE1420EA7100B428ED /* ViewController.m */,
+				4388DCF01420EA7100B428ED /* ViewController.xib */,
+				4388DCE21420EA7100B428ED /* Supporting Files */,
+				4388DD1B1420EAFB00B428ED /* CardImageView.h */,
+				4388DD1C1420EAFB00B428ED /* CardImageView.m */,
+			);
+			path = Concentration;
+			sourceTree = "<group>";
+		};
+		4388DCE21420EA7100B428ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4388DCE31420EA7100B428ED /* Concentration-Info.plist */,
+				4388DCE41420EA7100B428ED /* InfoPlist.strings */,
+				4388DCE71420EA7100B428ED /* main.m */,
+				4388DCE91420EA7100B428ED /* Concentration-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4388DCF81420EA8000B428ED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4388DCF91420EA9B00B428ED /* Card Front_1.png */,
+				4388DCFA1420EA9B00B428ED /* Card Front_2.png */,
+				4388DCFB1420EA9B00B428ED /* Card Front_3.png */,
+				4388DCFC1420EA9B00B428ED /* Card Front_4.png */,
+				4388DCFD1420EA9B00B428ED /* Card Front_5.png */,
+				4388DCFE1420EA9B00B428ED /* Card Front_6.png */,
+				4388DCFF1420EA9B00B428ED /* Card Front_7.png */,
+				4388DD001420EA9B00B428ED /* Card Front_8.png */,
+				4388DD011420EA9B00B428ED /* Card Front_9.png */,
+				4388DD021420EA9B00B428ED /* Card Front_10.png */,
+				4388DD031420EA9B00B428ED /* Card Front_11.png */,
+				4388DD041420EA9B00B428ED /* Card Front_12.png */,
+				4388DD051420EA9B00B428ED /* Card Front_13.png */,
+				4388DD061420EA9B00B428ED /* Card Front_14.png */,
+				4388DD071420EA9B00B428ED /* Card Front_15.png */,
+				4388DD081420EA9B00B428ED /* Card Front_16.png */,
+				4388DD091420EA9B00B428ED /* Card_Back.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4388DCD61420EA7100B428ED /* Concentration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4388DCF51420EA7100B428ED /* Build configuration list for PBXNativeTarget "Concentration" */;
+			buildPhases = (
+				4388DCD31420EA7100B428ED /* Sources */,
+				4388DCD41420EA7100B428ED /* Frameworks */,
+				4388DCD51420EA7100B428ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Concentration;
+			productName = Concentration;
+			productReference = 4388DCD71420EA7100B428ED /* Concentration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4388DCCE1420EA7100B428ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4388DCD11420EA7100B428ED /* Build configuration list for PBXProject "Concentration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4388DCCC1420EA7100B428ED;
+			productRefGroup = 4388DCD81420EA7100B428ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4388DCD61420EA7100B428ED /* Concentration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4388DCD51420EA7100B428ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4388DCE61420EA7100B428ED /* InfoPlist.strings in Resources */,
+				4388DCF21420EA7100B428ED /* ViewController.xib in Resources */,
+				4388DD0A1420EA9B00B428ED /* Card Front_1.png in Resources */,
+				4388DD0B1420EA9B00B428ED /* Card Front_2.png in Resources */,
+				4388DD0C1420EA9B00B428ED /* Card Front_3.png in Resources */,
+				4388DD0D1420EA9B00B428ED /* Card Front_4.png in Resources */,
+				4388DD0E1420EA9B00B428ED /* Card Front_5.png in Resources */,
+				4388DD0F1420EA9B00B428ED /* Card Front_6.png in Resources */,
+				4388DD101420EA9B00B428ED /* Card Front_7.png in Resources */,
+				4388DD111420EA9B00B428ED /* Card Front_8.png in Resources */,
+				4388DD121420EA9B00B428ED /* Card Front_9.png in Resources */,
+				4388DD131420EA9B00B428ED /* Card Front_10.png in Resources */,
+				4388DD141420EA9B00B428ED /* Card Front_11.png in Resources */,
+				4388DD151420EA9B00B428ED /* Card Front_12.png in Resources */,
+				4388DD161420EA9B00B428ED /* Card Front_13.png in Resources */,
+				4388DD171420EA9B00B428ED /* Card Front_14.png in Resources */,
+				4388DD181420EA9B00B428ED /* Card Front_15.png in Resources */,
+				4388DD191420EA9B00B428ED /* Card Front_16.png in Resources */,
+				4388DD1A1420EA9B00B428ED /* Card_Back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4388DCD31420EA7100B428ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4388DCE81420EA7100B428ED /* main.m in Sources */,
+				4388DCEC1420EA7100B428ED /* AppDelegate.m in Sources */,
+				4388DCEF1420EA7100B428ED /* ViewController.m in Sources */,
+				4388DD1D1420EAFB00B428ED /* CardImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4388DCE41420EA7100B428ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4388DCE51420EA7100B428ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4388DCF01420EA7100B428ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4388DCF11420EA7100B428ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4388DCF31420EA7100B428ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4388DCF41420EA7100B428ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4388DCF61420EA7100B428ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concentration/Concentration-Prefix.pch";
+				INFOPLIST_FILE = "Concentration/Concentration-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4388DCF71420EA7100B428ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concentration/Concentration-Prefix.pch";
+				INFOPLIST_FILE = "Concentration/Concentration-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4388DCD11420EA7100B428ED /* Build configuration list for PBXProject "Concentration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4388DCF31420EA7100B428ED /* Debug */,
+				4388DCF41420EA7100B428ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4388DCF51420EA7100B428ED /* Build configuration list for PBXNativeTarget "Concentration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4388DCF61420EA7100B428ED /* Debug */,
+				4388DCF71420EA7100B428ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4388DCCE1420EA7100B428ED /* Project object */;
+}

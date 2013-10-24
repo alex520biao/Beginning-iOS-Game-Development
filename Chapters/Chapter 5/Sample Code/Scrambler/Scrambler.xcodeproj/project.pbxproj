@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4370C80D143F23DF00B37A0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370C80C143F23DF00B37A0E /* UIKit.framework */; };
+		4370C80F143F23DF00B37A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370C80E143F23DF00B37A0E /* Foundation.framework */; };
+		4370C811143F23DF00B37A0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370C810143F23DF00B37A0E /* CoreGraphics.framework */; };
+		4370C817143F23E000B37A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4370C815143F23E000B37A0E /* InfoPlist.strings */; };
+		4370C819143F23E000B37A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C818143F23E000B37A0E /* main.m */; };
+		4370C81D143F23E000B37A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C81C143F23E000B37A0E /* AppDelegate.m */; };
+		4370C820143F23E000B37A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C81F143F23E000B37A0E /* ViewController.m */; };
+		4370C823143F23E000B37A0E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4370C821143F23E000B37A0E /* ViewController.xib */; };
+		4370C82B143F28C100B37A0E /* ScramblerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C82A143F28C100B37A0E /* ScramblerPlayer.m */; };
+		4370C82E143F2A0600B37A0E /* ScramblerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370C82D143F2A0600B37A0E /* ScramblerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4370C808143F23DF00B37A0E /* Scrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4370C80C143F23DF00B37A0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4370C80E143F23DF00B37A0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4370C810143F23DF00B37A0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4370C814143F23E000B37A0E /* Scrambler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrambler-Info.plist"; sourceTree = "<group>"; };
+		4370C816143F23E000B37A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4370C818143F23E000B37A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4370C81A143F23E000B37A0E /* Scrambler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrambler-Prefix.pch"; sourceTree = "<group>"; };
+		4370C81B143F23E000B37A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4370C81C143F23E000B37A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4370C81E143F23E000B37A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4370C81F143F23E000B37A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4370C822143F23E000B37A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4370C829143F28C100B37A0E /* ScramblerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScramblerPlayer.h; sourceTree = "<group>"; };
+		4370C82A143F28C100B37A0E /* ScramblerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScramblerPlayer.m; sourceTree = "<group>"; };
+		4370C82C143F2A0600B37A0E /* ScramblerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScramblerModel.h; sourceTree = "<group>"; };
+		4370C82D143F2A0600B37A0E /* ScramblerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScramblerModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4370C805143F23DF00B37A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4370C80D143F23DF00B37A0E /* UIKit.framework in Frameworks */,
+				4370C80F143F23DF00B37A0E /* Foundation.framework in Frameworks */,
+				4370C811143F23DF00B37A0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4370C7FD143F23DF00B37A0E = {
+			isa = PBXGroup;
+			children = (
+				4370C812143F23E000B37A0E /* Scrambler */,
+				4370C80B143F23DF00B37A0E /* Frameworks */,
+				4370C809143F23DF00B37A0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4370C809143F23DF00B37A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4370C808143F23DF00B37A0E /* Scrambler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4370C80B143F23DF00B37A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4370C80C143F23DF00B37A0E /* UIKit.framework */,
+				4370C80E143F23DF00B37A0E /* Foundation.framework */,
+				4370C810143F23DF00B37A0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4370C812143F23E000B37A0E /* Scrambler */ = {
+			isa = PBXGroup;
+			children = (
+				4370C81B143F23E000B37A0E /* AppDelegate.h */,
+				4370C81C143F23E000B37A0E /* AppDelegate.m */,
+				4370C81E143F23E000B37A0E /* ViewController.h */,
+				4370C81F143F23E000B37A0E /* ViewController.m */,
+				4370C821143F23E000B37A0E /* ViewController.xib */,
+				4370C829143F28C100B37A0E /* ScramblerPlayer.h */,
+				4370C82A143F28C100B37A0E /* ScramblerPlayer.m */,
+				4370C82C143F2A0600B37A0E /* ScramblerModel.h */,
+				4370C82D143F2A0600B37A0E /* ScramblerModel.m */,
+				4370C813143F23E000B37A0E /* Supporting Files */,
+			);
+			path = Scrambler;
+			sourceTree = "<group>";
+		};
+		4370C813143F23E000B37A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4370C814143F23E000B37A0E /* Scrambler-Info.plist */,
+				4370C815143F23E000B37A0E /* InfoPlist.strings */,
+				4370C818143F23E000B37A0E /* main.m */,
+				4370C81A143F23E000B37A0E /* Scrambler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4370C807143F23DF00B37A0E /* Scrambler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4370C826143F23E000B37A0E /* Build configuration list for PBXNativeTarget "Scrambler" */;
+			buildPhases = (
+				4370C804143F23DF00B37A0E /* Sources */,
+				4370C805143F23DF00B37A0E /* Frameworks */,
+				4370C806143F23DF00B37A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrambler;
+			productName = Scrambler;
+			productReference = 4370C808143F23DF00B37A0E /* Scrambler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4370C7FF143F23DF00B37A0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4370C802143F23DF00B37A0E /* Build configuration list for PBXProject "Scrambler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4370C7FD143F23DF00B37A0E;
+			productRefGroup = 4370C809143F23DF00B37A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4370C807143F23DF00B37A0E /* Scrambler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4370C806143F23DF00B37A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4370C817143F23E000B37A0E /* InfoPlist.strings in Resources */,
+				4370C823143F23E000B37A0E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4370C804143F23DF00B37A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4370C819143F23E000B37A0E /* main.m in Sources */,
+				4370C81D143F23E000B37A0E /* AppDelegate.m in Sources */,
+				4370C820143F23E000B37A0E /* ViewController.m in Sources */,
+				4370C82B143F28C100B37A0E /* ScramblerPlayer.m in Sources */,
+				4370C82E143F2A0600B37A0E /* ScramblerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4370C815143F23E000B37A0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4370C816143F23E000B37A0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4370C821143F23E000B37A0E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4370C822143F23E000B37A0E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4370C824143F23E000B37A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4370C825143F23E000B37A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4370C827143F23E000B37A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrambler/Scrambler-Prefix.pch";
+				INFOPLIST_FILE = "Scrambler/Scrambler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4370C828143F23E000B37A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrambler/Scrambler-Prefix.pch";
+				INFOPLIST_FILE = "Scrambler/Scrambler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4370C802143F23DF00B37A0E /* Build configuration list for PBXProject "Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4370C824143F23E000B37A0E /* Debug */,
+				4370C825143F23E000B37A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4370C826143F23E000B37A0E /* Build configuration list for PBXNativeTarget "Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4370C827143F23E000B37A0E /* Debug */,
+				4370C828143F23E000B37A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4370C7FF143F23DF00B37A0E /* Project object */;
+}
