@@ -9,3 +9,6 @@ http://www.wrox.com/WileyCDA/WroxTitle/Beginning-iOS-Game-Development.productCd-
 
 英文版地址:
 http://www.wrox.com/WileyCDA/WroxTitle/Beginning-iOS-Game-Development.productCd-1118107322,descCd-DOWNLOAD.html
+
+试读样张:
+http://www.tup.tsinghua.edu.cn/Resource/tsyz/047224-01.pdf
